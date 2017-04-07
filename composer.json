@@ -1,0 +1,19 @@
+{
+    "name": "donatis07/laravel-5-paysera",
+    "description": "Paysera module for Laravel ^5.1",
+    "authors": [
+        {
+            "name": "Donatas Lazaitis",
+            "email": "donatis07@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Donatis\\Paysera\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "hashids/hashids": "^2.0"
+    }
+}
