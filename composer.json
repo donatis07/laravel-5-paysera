@@ -1,5 +1,5 @@
 {
-    "name": "donatis07/laravel-5-paysera",
+    "name": "tsulavi/laravel-5-paysera",
     "description": "Paysera module for Laravel ^5.1",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Donatis\\Paysera\\": "src"
+            "Tsulavi\\Paysera\\": "src"
         }
     },
     "minimum-stability": "dev",

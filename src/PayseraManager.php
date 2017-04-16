@@ -1,6 +1,6 @@
 <?php
 
-namespace Donatis\Paysera;
+namespace Tsulavi\Paysera;
 
 use Hashids\Hashids;
 use Illuminate\Http\Request;

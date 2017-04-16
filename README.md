@@ -4,20 +4,20 @@ Package that helps to use Paysera API in Laravel application.
 ## Installation
 First require package with composer:
 ```sh
-$ composer require donatis07/laravel-5-paysera
+$ composer require Tsulavi/laravel-5-paysera
 ```
 Then add service provider to config/app.php:
 ```php
 'providers' => [
     ...
-    Donatis\Paysera\PayseraServiceProvider::class,
+    Tsulavi\Paysera\PayseraServiceProvider::class,
 ],
 ```
 Facade to aliases:
 ```php
 'aliases' => [
     ...
-    'Paysera' => Donatis\Paysera\Facades\Paysera::class,
+    'Paysera' => Tsulavi\Paysera\Facades\Paysera::class,
 ],
 ```
 Add route
@@ -41,6 +41,7 @@ Paysera::getPaymentMethods($locale = null);
 Parameter for this method is optional. `$locale` have to be string of locale key.
 By default `$locale` will be set by application locale (`App::getLocale()`). Result of this method will be 
  array with payment methods and information about them.
+ ### Make payment method
 ```php
 Paysera::makePayment($order_id, $amount, $options = []);
 ```

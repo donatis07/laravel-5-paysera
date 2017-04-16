@@ -1,6 +1,6 @@
 <?php
 
-namespace Donatis\Paysera\Facades;
+namespace Tsulavi\Paysera\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

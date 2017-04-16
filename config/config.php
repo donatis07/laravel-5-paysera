@@ -3,7 +3,7 @@ return [
     'projectid'     => '', // * REQUIRED
     'sign_password' => '', // * REQUIRED
     'currency'      => 'EUR',
-    // Country can be ...
+    // Country can be LT, EE, LV, GB, PL, DE
     'country'       => 'LT',
 
     // Test mode (sand box) 0 - off or 1 - on
@@ -27,15 +27,5 @@ return [
         'callback'  => 'paysera.callback',
         'accept'    => 'paysera.accept',
         'cancel'    => 'paysera.cancel'
-    ],
-
-    /*
-     * !!! NOT NEEDED ANYMORE
-     *
-     * Used for get available payment methods
-     * Here you can set what payment methods groupds should be return by default
-     */
-    //'payment_groups' => ['e-banking', 'e-money', 'other'],
-
-
+    ]
 ];
