@@ -26,7 +26,7 @@ Route::get('payment-callback', ['as' => 'paysera.callback', 'uses' => 'OrderCont
 ```
 And last is to publish config and views:
 ```sh
-$ php artisan vendor:publish --provider="Donatis\Paysera\ServiceProvider"
+$ php artisan vendor:publish --provider="Tsulavi\Paysera\ServiceProvider"
 ```
 
 ## Set configuration
