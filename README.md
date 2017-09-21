@@ -34,6 +34,10 @@ Description comming soon...
 
 ## Usage
 
+```php
+use Tsulavi\Paysera\Facades\Paysera;
+```
+
 ### Get payment methods
 ```php
 Paysera::getPaymentMethods($locale = null);
