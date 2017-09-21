@@ -11,10 +11,11 @@ return [
 
     /*
      * Order model namespace
+     * (Ex. \App\Order::class)
      * Package can automatically set order model status
      * If null, nothing gonna happen
      */
-    'order_model_namespace' => \App\Order::class,
+    'order_model_namespace' => null,
 
     /*
      * Routes where Paysera will send callback
